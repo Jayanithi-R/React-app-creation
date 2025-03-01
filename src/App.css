@@ -1,0 +1,73 @@
+.heading{
+  background-color: rgb(233, 139, 139);
+  text-align:center;
+  padding:2rem 0px;
+  font-weight: bold;
+  font: size 2rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+}
+.add-item{
+  margin-top: 3rem;
+  padding: 1.5rem;
+  border-radius: 10%;
+  box-shadow: 0px 4px 10px rgba(237, 76, 101, 0.2);
+  width: 40%;
+  margin: auto;
+  background-color: rgb(246, 240, 208);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.add-item > div{
+  margin: 1rem 0;
+}
+.add-item > label{
+  display: block;
+}.add-item input,.add-item select{
+  height:100%;
+  width:100%;
+}.add-item:hover {
+  transform: scale(1.02);
+}
+.btn{
+
+  background-color:  rgb(233, 139, 139);
+  border-radius: 10%;
+  border: none;
+  color: aliceblue;
+  padding:10px 15px;
+}
+.btn:hover{
+  background-color: rgb(40, 158, 158);
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item>div{
+  flex:1;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.item:nth-child(even){
+  background-color: rgba(241, 186, 224, 0.282);;
+}
+item:nth-child(odd) {
+  background-color: rgba(186, 241, 224, 0.5)
+}
+  .footer{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left:0;
+  padding: 2rem 0px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:  rgb(233, 139, 139);
+}
